@@ -67,15 +67,62 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mf-St-bbQ">
+                                <rect key="frame" x="161.33333333333334" y="404.66666666666669" width="70.666666666666657" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUh-1u-vZP">
+                                <rect key="frame" x="154.33333333333334" y="447" width="84.333333333333343" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet lover, get ready to meet your pizza !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0s-Nw-h7V">
+                                <rect key="frame" x="32" y="489.33333333333331" width="329" height="52.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$5.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoG-Dx-Kki">
+                                <rect key="frame" x="16" y="747.66666666666663" width="92" height="38.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6V-Cv-osm">
+                                <rect key="frame" x="235" y="749" width="142" height="36"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD to CART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="L0s-Nw-h7V" secondAttribute="trailing" constant="32" id="3Tl-QH-1oi"/>
+                            <constraint firstItem="L0s-Nw-h7V" firstAttribute="top" secondItem="LUh-1u-vZP" secondAttribute="bottom" constant="16" id="3jp-Nt-bGM"/>
                             <constraint firstItem="7ZT-2E-WTQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="9hP-aN-jNW"/>
+                            <constraint firstItem="U6V-Cv-osm" firstAttribute="centerY" secondItem="XoG-Dx-Kki" secondAttribute="centerY" id="C67-0Q-jNo"/>
+                            <constraint firstItem="L0s-Nw-h7V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="FTK-rY-5Ai"/>
+                            <constraint firstItem="3mf-St-bbQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K6Q-c3-T99"/>
                             <constraint firstItem="Bcy-8v-t9N" firstAttribute="top" secondItem="3eG-zR-U2h" secondAttribute="bottom" constant="16" id="NFI-6i-JZQ"/>
+                            <constraint firstItem="LUh-1u-vZP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NNv-cn-n8x"/>
+                            <constraint firstItem="3mf-St-bbQ" firstAttribute="top" secondItem="Bcy-8v-t9N" secondAttribute="bottom" constant="16" id="Ufv-fn-5B4"/>
                             <constraint firstItem="3eG-zR-U2h" firstAttribute="top" secondItem="7ZT-2E-WTQ" secondAttribute="bottom" constant="16" id="W3n-O9-fes"/>
                             <constraint firstItem="Bcy-8v-t9N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZmV-h8-Hkh"/>
                             <constraint firstItem="3eG-zR-U2h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aXl-Jr-0UM"/>
+                            <constraint firstItem="XoG-Dx-Kki" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dQ7-R4-cGS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XoG-Dx-Kki" secondAttribute="bottom" constant="32" id="px1-jF-sbI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U6V-Cv-osm" secondAttribute="trailing" constant="16" id="svE-N4-6Ta"/>
+                            <constraint firstItem="LUh-1u-vZP" firstAttribute="top" secondItem="3mf-St-bbQ" secondAttribute="bottom" constant="16" id="trv-XT-dJs"/>
                             <constraint firstItem="7ZT-2E-WTQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xYX-6Q-MmF"/>
                         </constraints>
                     </view>
@@ -108,6 +155,9 @@
         <image name="pizza" width="166.66667175292969" height="166.66667175292969"/>
         <namedColor name="anaRenk">
             <color red="0.79600000381469727" green="0.125" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="0.3880000114440918" green="0.3880000114440918" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
